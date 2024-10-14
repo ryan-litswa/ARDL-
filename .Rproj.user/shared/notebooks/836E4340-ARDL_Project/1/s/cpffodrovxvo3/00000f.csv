@@ -1,0 +1,3 @@
+"0","data <- read.csv(""Countries.csv"")"
+"0","# Convert data to a panel data frame (replace 'Country' and 'Year' with your column names)"
+"0","pdata <- pdata.frame(data, index = c(""Country"", ""Year""))"
